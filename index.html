@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+
+        <!-- Bootstrap CSS -->
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>    
+    </head>
+    <body>
+        <!-- BT 1-->
+        <h1 style="text-align: center";>BT Quản Lý Tuyển Sinh</h1>
+        <br>
+        <br>
+        <input type="text" id="diemchuan" />
+        <span>Điểm Chuẩn</span>
+        <br>
+        <br>
+        <input type="text" id="diem1" />
+        <span>điểm Môn Thứ Nhất</span>
+        <br>
+        <br>
+        <input type="text" id="diem2" />
+        <span>điểm Môn Thứ Hai</span>
+        <br>
+        <br>
+        <input type="text" id="diem3" />
+        <span>điểm Môn Thứ Ba</span>
+        <br>
+        <br>
+        <img src="banguutien.png" width="400">
+        <br>
+        <br>
+        <p style="color : red"> Chú Ý : Nếu bạn không thuộc khu vực ưu tiên thì nhập X</p>
+        <p style="color : red"> Chú Ý : Nếu bạn không thuộc đối tượng ưu tiên thì nhập 0</p>
+        <input type="text" id="khuvuc" />
+        <span>Khu Vực</span>
+        <br>
+        <br>
+        <input type="text" id="doituong" />
+        <span>Đối Tượng</span>
+        <br>
+        <br>
+        <div>
+            <button class="btn btn-secondary" id="kq">Kết Quả</button>
+        </div>
+        <div id="thongbao" 
+        style ="background-color: brown; color:aliceblue; text-align: center;">
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <!-- BT 2 -->
+        <h1 style="text-align: center";>BT Tính Tiền Điện</h1>
+        <br>
+        <br>
+        <input type="text" id="ten" />
+        <span>Họ Và Tên</span>
+        <br>
+        <br>
+        <input type="text" id="nhapTienDien" />
+        <span>Số KW</span>
+        <br>
+        <br>
+        <div>
+            <button class="btn btn-success" id="xuatkq">Tính Tiền Điện</button>
+        </div>
+        <div id="thongbaott" 
+        style ="background-color: brown; color:aliceblue; text-align: center;">
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
